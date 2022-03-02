@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hvis hvilken div som er trykket på i info div'en :D</title>
+<style>
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        float: left;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+
+    <!-- 
+    **OPPAVE 1/2:**
+    Når du trykker på en av div'ene (div 1 eller div 2)
+    Så skal det komme en tekst i infoDiv som viser hvem av dem som er valgt
+
+    Framgangsmåte:
+    Gjør en div klikkbar med onclick
+    "koble" onclicken til en funksjon (onclick="funksjonsNavn1()")
+    la funksjonen endre innerHTML i infoDiv til en tekst som sier hvilken div som er trykket på
+    Gjør det tilsvarende med den andre DIV'en - lag én funksjon til hver onclick.
+
+
+    **OPPGAVE 2/2:**  (mindre instrukser her)
+    Prøv å skrive om koden til å bruke én funksjon.
+    
+    Hint:
+    Bruk bare én funksjon - som tar imot ett parameter
+    Bruke parameter i funksjonen, enten sende hardkoda string, eller this
+    Bruke parameteret i en tekst i infoDiv
+    
+    -->
+
+    <div id="div1" class="box">Div 1</div>
+    <div id="div2" class="box">Div 2</div>
+
+   
+    <div id="infoDiv" style="clear:left"> du har valgt:</div>
+      
+
+
+</body>
+</html>

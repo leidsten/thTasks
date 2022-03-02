@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator!</title>
+    <style>
+        body{
+            background-color:rgb(89, 121, 121);
+        }
+
+        #display{
+            border: 2px solid purple;
+            border-radius: 50px;
+            background-color:lightsteelblue;
+            height: 40px;
+            width: 220px;
+            margin-bottom: 10px;
+        }
+        .calcButton {
+            float: left;
+            border: 2px solid purple;
+            background-color:lightsteelblue;
+            border-radius: 50px;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 2px;
+           
+        }
+    </style>
+</head>
+<body>
+
+<!-- 
+   ** OPPGAVE 1/2: **
+Få tallene man trykker på opp i "displayet"
+
+
+** OPPGAVE 2/2: **
+Se om du kan få kalkulatoren til å fungere 
+    - se litt på eval
+    - bruk eval på det som blir skrevet i displayet - og vis dette i displayet sin innerHTML når man trykker på "="
+
+Les om eval() funksjonen her: https://www.w3schools.com/jsref/jsref_eval.asp
+
+Et tips på veien kan være å lagre tallene som vises i displayet også i en variabel som ligger globalt -- altså på toppen over funksjonene (Modellen i MVC ;)
+ -->
+
+    <div id="display"></div>
+      <div onclick="" class="calcButton">7</div>  
+      <div onclick="" class="calcButton">8</div> 
+      <div onclick="" class="calcButton">9</div> 
+      <div onclick="" class="calcButton">*</div> 
+
+      <div onclick="" class="calcButton" style="clear:left">4</div> 
+      <div onclick="" class="calcButton">5</div> 
+      <div onclick="" class="calcButton">6</div> 
+      <div onclick="" class="calcButton">-</div> 
+
+      <div onclick="" class="calcButton" style="clear:left">1</div> 
+      <div onclick="" class="calcButton">2</div> 
+      <div onclick="" class="calcButton">3</div> 
+      <div onclick="" class="calcButton">+</div> 
+
+      <div onclick="" class="calcButton" style="clear:left">0</div> 
+      <div onclick="" class="calcButton">c</div> 
+      <div onclick="" class="calcButton">/</div> 
+      <div onclick="" class="calcButton">=</div> 
+
+    <script>
+        const calcDisplay = document.getElementById('display');
+        //globale variabler  (model)
+
+
+
+        //funksjoner  (controller)
+
+//til oppgave 1/2
+        function clickedButton(){   //Få tallene man trykker på opp i "displayet". Se hvordan det ble løst på forrige oppgave om du står fast ;)
+
+
+        }
+
+
+//til oppgave 2/2
+        function makeCalculation(){  //Bruk eval() til å "kalkulere" det som er trykket på og vise svaret i displayet. Funksjonen skal kjøres når man trykker på "="
+
+
+        }
+
+    </script>
+</body>
+</html>
